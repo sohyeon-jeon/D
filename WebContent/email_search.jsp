@@ -10,7 +10,7 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>email_search</title>
+<title>password_search</title>
 <!-- 부트스트랩 -->
 <link rel="stylesheet" href="css/bootstrap.css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -35,45 +35,9 @@
       <div class="col-sm-4 offset-sm-4">
          <form>
             <fieldset>
-               <div class="form-group">
-                  <label for="tel"><b>전화번호</b></label>
-                  <div class="form-group">
-                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" id="tel">
-                        <div class="input-group-append">
-                           <button type="button" class="btn btn-secondary"
-                              data-toggle="modal" data-target="#exampleModal">인증번호 받기</button>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+               
 
-               <!-- Modal -->
-               <div class="modal fade" id="exampleModal" tabindex="-1"
-                  aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                     <div class="modal-content">
-                        <div class="modal-header">
-                           <h5 class="modal-title" id="exampleModalLabel">인증번호</h5>
-                           <button type="button" class="close" data-dismiss="modal"
-                              aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                           </button>
-                        </div>
-                        <div class="modal-body">
-                        <p>
-                        인증번호를 발송했습니다.<br>
-                        인증번호가 오지 않으면 입력하신 정보가 회원정보와 일치하는지 확인해 주세요.
-                        </p>
-                        </div>
-                        <div class="modal-footer">
-                           <button type="button" class="btn btn-secondary"
-                              data-dismiss="modal">닫기</button>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-
+               
                <div class="form-group">
                   <input type="text"
                      class="form-control" id="tel_check" placeholder="6자리 인증번호 입력">
