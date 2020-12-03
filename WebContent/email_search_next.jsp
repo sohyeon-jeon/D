@@ -42,20 +42,24 @@
    </div><br>
    
    <div class="row">
-      <div class="col-sm-4 offset-sm-4">
+      <div class="col-sm-4 offset-sm-4 text-center">
          <form>
             <fieldset>
                
                       고객님의 계정은 <span class="text-primary">sl@dsq.com</span> 입니다.
-               <br>
-               <div>
-               <div id="c_left">
-                  <a href="#"><button type="submit" class="btn btn-primary btn-lg btn-block">로그인하기</button></a>
-               </div>
-               <div id="right">
-                  <a href="#"><button type="submit" class="btn btn-primary btn-lg btn-block">비밀번호 찾기</button></a>
-               </div>
-               </div>
+               <br><br>
+               
+               
+               <div class="form-group">
+				<div class="custom-control col-sm-6" id="c_left">
+ <a href="#"><button type="submit" class="btn btn-primary btn-lg btn-block">로그인하기</button></a>
+				</div>
+				<div class="custom-control col-sm-6" id="c_right" >
+<a href="#"><button type="submit" class="btn btn-primary btn-lg btn-block">비밀번호 찾기</button></a>
+				</div>
+			</div>
+			
+                  
             </fieldset>
          </form>
       </div>
