@@ -39,6 +39,10 @@
 
                
                <div class="form-group">
+               <input type="text" class="form-control" id="tel">
+                        <div class="input-group-append">
+                         <button type="button" class="btn btn-secondary"
+                              data-toggle="modal" data-target="#exampleModal3">인증번호 발송</button>
                   <input type="text"
                      class="form-control" id="tel_check" placeholder="6자리 인증번호 입력">
                </div>

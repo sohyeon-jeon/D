@@ -154,7 +154,7 @@
                      <li class="nav-item"><a class="nav-link pl-0" href="#"><i
                            class="fa fa-book fa-fw"></i> <span class="d-none d-sm-inline">자바
                               시작하기</span></a></li>
-                     <li class="nav-item"><a class="nav-link pl-0" href="#"><i
+                     <li class="nav-item"><a class="nav-link pl-0" href="#aaa"><i
                            class="fa fa-cog fa-fw"></i> <span class="d-none d-sm-inline">자료형</span></a>
                      </li>
                      <li class="nav-item"><a class="nav-link pl-0" href="#"><i
@@ -188,7 +188,7 @@
          <main class="col bg-faded py-3 flex-grow-1">
 
             <br> <br>
-            <div class="container">
+            <div class="container" id="aaa"> 
                <div class="row">
                   <div class="embed-responsive embed-responsive-16by9">
                      <iframe class="embed-responsive-item"
