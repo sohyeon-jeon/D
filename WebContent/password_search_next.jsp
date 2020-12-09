@@ -10,7 +10,7 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>email_search_next</title>
+<title>password_search_next</title>
 <!-- 부트스트랩 -->
 <link rel="stylesheet" href="css/bootstrap.css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -23,25 +23,13 @@
 	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 	crossorigin="anonymous"></script>
 
-<style>
-#c_left {
-	float: left;
-}
 
-#c_right {
-	float: right;
-}
-
-.fonts {
-	font-size: 20px;
-}
-</style>
 </head>
 <body>
 	<div class="text-center">
 		<a href="#"> <img src="img/D'sQ.png" alt="D'sQ"></a>
 		<legend>
-			<b>계정 찾기</b>
+			<b>비밀번호 재설정</b>
 		</legend>
 	</div>
 	<br>
@@ -50,22 +38,27 @@
 		<div class="col-sm-4 offset-sm-4 text-center">
 			<form>
 				<fieldset>
-				<!-- 해당 email 데이터값 뿌리기 -->
-					<div class="fonts">
-						고객님의 계정은 <span class="text-primary">sl@dsq.com</span> 입니다.
-					</div>
-					<br> 
-					
 					<div class="form-group">
-						<div class="custom-control col-sm-6" id="c_left">
-							<a href="#"><button type="submit"
-									class="btn btn-primary btn-lg btn-block">로그인하기</button></a>
-						</div>
-						<div class="custom-control col-sm-6" id="c_right">
-							<a href="#"><button type="submit"
-									class="btn btn-secondary btn-lg btn-block">비밀번호 찾기</button></a>
-						</div>
+						<input type="password" class="form-control" id="new_pw1"
+							placeholder="새 비밀번호">
 					</div>
+
+					<div class="form-group">
+						<input type="password" class="form-control" id="new_pw2"
+							placeholder="새 비밀번호 확인">
+					</div>
+
+					<br>
+
+					<div class="form-group">
+						<a href="#"><button type="submit"
+								class="btn btn-primary btn-lg btn-block">확인</button></a>
+					</div>
+
+					<!-- 확인되면
+				alert("변경되었습니다. 다시 로그인해주십시오!");
+				띄우기
+				 -->
 
 
 				</fieldset>
